@@ -1,8 +1,24 @@
 aid: graphite-innovation-and-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/graphite-innovation-and-technologies.png
 name: Graphite Innovation and Technologies
-description: Graphite Innovation and Technologies is a company surfaced as a portfolio company of techstars
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Graphite Innovation and Technologies Inc, operating as GIT Coatings, is a Canadian materials-science
+  company that develops sustainable, graphene-based marine coatings for commercial ships. Its biocide-free
+  hard foul-release hull and propeller coatings, including XGIT-FORCE, XGIT-VORTEX, and XGIT-PROP, cut fuel
+  consumption, reduce drag, and eliminate leaching to protect the marine environment. The company is a
+  Techstars-backed portfolio company. It is a physical-products manufacturer and publishes no public developer
+  API, SDKs, or API documentation; this profile is maintained in the API Evangelist network for company-level
+  discovery and coverage.
 url: https://raw.githubusercontent.com/api-evangelist/graphite-innovation-and-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Marine
+- Coatings
+- Graphene
+- Materials Science
+- Sustainability
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +44,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/graphite-innovation-and-technologies-domain-security.yml
 - type: Website
-  url: https://grapheneenterprise.ca/
+  url: https://gitcoatings.com/
+- type: Blog
+  url: https://gitcoatings.com/news/
+- type: Support
+  url: https://gitcoatings.com/contact/
+- type: PrivacyPolicy
+  url: https://gitcoatings.com/privacy-policy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
